@@ -7,7 +7,7 @@ To assess a developer's skills in terms of developing iOS apps and decision-maki
 
 - Fork this repository
 - Create an iOS Swift 3 project with the following features:
-    - Uses Model-View ViewModel Design Pattern
+    - Uses Model-View ViewModel Design Pattern or Clean Architecture Concept.
     - Loads and shows a list of Persons from a remote source
     - Caches the loaded list of Persons
     - Prevents any loading from the remote source if the cache is available
