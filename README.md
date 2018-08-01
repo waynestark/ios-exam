@@ -33,3 +33,4 @@ Any libraries or tools of the developer's choosing may be used.
 - UI tests
 - iOS Design Guidelines
 - Adaptive User Interfaces
+- RxSwift / RxCocoa technology
