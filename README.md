@@ -6,15 +6,16 @@ To assess a developer's skills in terms of developing iOS apps and decision-maki
 ## Tasks ##
 
 - Fork this repository
-- Create an iOS Swift 3 project with the following features:
+- Create an iOS Swift 5 project with the following features:
     - Uses Model-View ViewModel Design Pattern or Other Design Pattern Just Indicate what design pattern did you use
     - Uses Clean Architecture
     - Uses Modularization
-    - Loads and shows a list of Persons from a remote source (can be from some random source / or from a static file)
+    - Loads and shows a list of Persons from a remote source (can be from some random source / such as https://randomuser.me)
     - Caches the loaded list of Persons
     - Prevents any loading from the remote source if the cache is available
     - Shows the full details of a Person on a separate screen
-    - Each `Person` must have the following data:
+    - Uses UIKit for layout
+    - Each `Person` must have the following data: or use the API data  from https://randomuser.me
         - First name
         - Last name
         - Birthday
