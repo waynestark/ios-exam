@@ -1,0 +1,6 @@
+framework module Pods_RandomMeTests {
+  umbrella header "Pods-RandomMeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
