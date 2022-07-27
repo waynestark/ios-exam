@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  RandomMe
+
+  Created by Marwin Carino on 7/26/22.
+  
+*/
+
+
+/* Errors */
+
+error.api-client.failedRequest = "Request failed";
+error.api-client.dataNotFound = "Data not found";
+error.api-client.unknown = "An unknown error has occured";
+
+error.general-message = "An unknown error has occured";
+
+/* Models */
+
+error.model.dataDecodingFailed = "Failed to decode data";
+error.model.unknown = "An unknown error has occured";
+
+/* UISegmentedControl */
+
+segmented-control.people.gender.male = "Male";
+segmented-control.people.gender.female = "Female";
