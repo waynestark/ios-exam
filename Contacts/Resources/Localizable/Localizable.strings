@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Contacts
+
+  Created by Cielo Reyes on 9/5/22.
+  
+*/
+
+title = "My Contacts";
+favorites = "Favorites";
+contacts = "Contacts";
