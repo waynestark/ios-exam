@@ -15,6 +15,8 @@ To assess a developer's skills in terms of developing iOS apps and decision-maki
     - Prevents any loading from the remote source if the cache is available
     - Shows the full details of a Person on a separate screen
     - Uses UIKit for layout
+    - Swipe to refresh (Force update the cache data)
+    - Loading more data when scrolling down bottom.
     - Each `Person` must have the following data: or use the API data  from https://randomuser.me
         - First name
         - Last name
