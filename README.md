@@ -10,14 +10,18 @@ To assess a developer's skills in terms of developing iOS apps and decision-maki
     - Uses Model-View ViewModel Design Pattern or Other Design Pattern Just Indicate what design pattern did you use
     - Uses Clean Architecture
     - Uses Modularization
-    - Loads and shows a list of Persons from a remote source (can be from some random source / such as https://randomuser.me)
-    - Caches the loaded list of Persons
-    - Prevents any loading from the remote source if the cache is available
-    - Shows the full details of a Person on a separate screen
     - Uses UIKit for layout
-    - Swipe to refresh (Force update the cache data)
+    - Loads and shows a list of Persons from a remote source (can be from some random source / such as https://randomuser.me)
+    - Caches the loaded of avatar image 
+    - Prevents any loading from the remote source if the cache is available
+    - Save the loaded list of Persons to local database
+    - Prevents any loading from the remote source if the local database is available
+    - Swipe to refresh (Force update the cache data and storage data)
     - Loading more data when scrolling down bottom.
+    - Shows the full details of a Person on a separate screen
+    - Set the list title via click the avatar image on details page with back behavior
     - Each `Person` must have the following data: or use the API data  from https://randomuser.me
+        - Avatar image
         - First name
         - Last name
         - Birthday
