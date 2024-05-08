@@ -9,23 +9,39 @@
 /* Begin PBXBuildFile section */
 		07401AF32BEB01430080E807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07401AF22BEB01430080E807 /* AppDelegate.swift */; };
 		07401AF52BEB01430080E807 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07401AF42BEB01430080E807 /* SceneDelegate.swift */; };
-		07401AF72BEB01430080E807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07401AF62BEB01430080E807 /* ViewController.swift */; };
+		07401AF72BEB01430080E807 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07401AF62BEB01430080E807 /* HomeViewController.swift */; };
 		07401AFA2BEB01430080E807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07401AF82BEB01430080E807 /* Main.storyboard */; };
 		07401AFD2BEB01430080E807 /* Cybilltek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07401AFB2BEB01430080E807 /* Cybilltek.xcdatamodeld */; };
 		07401AFF2BEB01450080E807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07401AFE2BEB01450080E807 /* Assets.xcassets */; };
 		07401B022BEB01450080E807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07401B002BEB01450080E807 /* LaunchScreen.storyboard */; };
+		07401B112BEB17B90080E807 /* RandomUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07401B102BEB17B80080E807 /* RandomUserResponse.swift */; };
+		07401B132BEB184B0080E807 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07401B122BEB184B0080E807 /* APICaller.swift */; };
+		07401B152BEB1D470080E807 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07401B142BEB1D470080E807 /* Extensions.swift */; };
+		07401B172BEB1E300080E807 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07401B162BEB1E300080E807 /* UserTableViewCell.swift */; };
+		07401B192BEB264D0080E807 /* UserTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07401B182BEB264D0080E807 /* UserTableViewCellViewModel.swift */; };
+		07CF702E2BEB3F9E0096C754 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF702D2BEB3F9E0096C754 /* UserDetailsViewController.swift */; };
+		B2AB0385E9DCE75EDF757434 /* Pods_Cybilltek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240CD047431ED6BFEA4A7327 /* Pods_Cybilltek.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07401AEF2BEB01430080E807 /* Cybilltek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cybilltek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07401AF22BEB01430080E807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07401AF42BEB01430080E807 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		07401AF62BEB01430080E807 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07401AF62BEB01430080E807 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		07401AF92BEB01430080E807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07401AFC2BEB01430080E807 /* Cybilltek.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cybilltek.xcdatamodel; sourceTree = "<group>"; };
 		07401AFE2BEB01450080E807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07401B012BEB01450080E807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07401B032BEB01450080E807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07401B102BEB17B80080E807 /* RandomUserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserResponse.swift; sourceTree = "<group>"; };
+		07401B122BEB184B0080E807 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		07401B142BEB1D470080E807 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		07401B162BEB1E300080E807 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		07401B182BEB264D0080E807 /* UserTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		07CF702D2BEB3F9E0096C754 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		240CD047431ED6BFEA4A7327 /* Pods_Cybilltek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cybilltek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D75A870DDAEF622190F7836 /* Pods-Cybilltek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cybilltek.release.xcconfig"; path = "Target Support Files/Pods-Cybilltek/Pods-Cybilltek.release.xcconfig"; sourceTree = "<group>"; };
+		9317F21E48E8126F64D40072 /* Pods-Cybilltek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cybilltek.debug.xcconfig"; path = "Target Support Files/Pods-Cybilltek/Pods-Cybilltek.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2AB0385E9DCE75EDF757434 /* Pods_Cybilltek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +61,8 @@
 			children = (
 				07401AF12BEB01430080E807 /* Cybilltek */,
 				07401AF02BEB01430080E807 /* Products */,
+				C11C2C1E890A553DCDA4847A /* Pods */,
+				DD14DB4E449823756DBCF98E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +77,95 @@
 		07401AF12BEB01430080E807 /* Cybilltek */ = {
 			isa = PBXGroup;
 			children = (
-				07401AF22BEB01430080E807 /* AppDelegate.swift */,
-				07401AF42BEB01430080E807 /* SceneDelegate.swift */,
-				07401AF62BEB01430080E807 /* ViewController.swift */,
-				07401AF82BEB01430080E807 /* Main.storyboard */,
-				07401AFE2BEB01450080E807 /* Assets.xcassets */,
-				07401B002BEB01450080E807 /* LaunchScreen.storyboard */,
+				07401B092BEB08C50080E807 /* Resources */,
+				07401B0E2BEB10800080E807 /* Managers */,
+				07401B0F2BEB17840080E807 /* Models */,
+				07401B0C2BEB106D0080E807 /* Views */,
+				07401B0D2BEB10730080E807 /* ViewModels */,
+				07401B0B2BEB08F10080E807 /* Controllers */,
+				07401B0A2BEB08E10080E807 /* Storyboards */,
 				07401B032BEB01450080E807 /* Info.plist */,
 				07401AFB2BEB01430080E807 /* Cybilltek.xcdatamodeld */,
 			);
 			path = Cybilltek;
+			sourceTree = "<group>";
+		};
+		07401B092BEB08C50080E807 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07401AF22BEB01430080E807 /* AppDelegate.swift */,
+				07401AF42BEB01430080E807 /* SceneDelegate.swift */,
+				07401AFE2BEB01450080E807 /* Assets.xcassets */,
+				07401B142BEB1D470080E807 /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		07401B0A2BEB08E10080E807 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				07401AF82BEB01430080E807 /* Main.storyboard */,
+				07401B002BEB01450080E807 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		07401B0B2BEB08F10080E807 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				07401AF62BEB01430080E807 /* HomeViewController.swift */,
+				07CF702D2BEB3F9E0096C754 /* UserDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		07401B0C2BEB106D0080E807 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				07401B162BEB1E300080E807 /* UserTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		07401B0D2BEB10730080E807 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				07401B182BEB264D0080E807 /* UserTableViewCellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		07401B0E2BEB10800080E807 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				07401B122BEB184B0080E807 /* APICaller.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		07401B0F2BEB17840080E807 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				07401B102BEB17B80080E807 /* RandomUserResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C11C2C1E890A553DCDA4847A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9317F21E48E8126F64D40072 /* Pods-Cybilltek.debug.xcconfig */,
+				8D75A870DDAEF622190F7836 /* Pods-Cybilltek.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD14DB4E449823756DBCF98E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				240CD047431ED6BFEA4A7327 /* Pods_Cybilltek.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07401B062BEB01450080E807 /* Build configuration list for PBXNativeTarget "Cybilltek" */;
 			buildPhases = (
+				3ADB611CC3DCF8233563803B /* [CP] Check Pods Manifest.lock */,
 				07401AEB2BEB01430080E807 /* Sources */,
 				07401AEC2BEB01430080E807 /* Frameworks */,
 				07401AED2BEB01430080E807 /* Resources */,
+				CB455D75F5490E6755039004 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +236,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3ADB611CC3DCF8233563803B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cybilltek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB455D75F5490E6755039004 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cybilltek/Pods-Cybilltek-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cybilltek/Pods-Cybilltek-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cybilltek/Pods-Cybilltek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07401AEB2BEB01430080E807 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07401AF72BEB01430080E807 /* ViewController.swift in Sources */,
+				07CF702E2BEB3F9E0096C754 /* UserDetailsViewController.swift in Sources */,
+				07401B192BEB264D0080E807 /* UserTableViewCellViewModel.swift in Sources */,
+				07401AF72BEB01430080E807 /* HomeViewController.swift in Sources */,
+				07401B132BEB184B0080E807 /* APICaller.swift in Sources */,
 				07401AFD2BEB01430080E807 /* Cybilltek.xcdatamodeld in Sources */,
 				07401AF32BEB01430080E807 /* AppDelegate.swift in Sources */,
+				07401B172BEB1E300080E807 /* UserTableViewCell.swift in Sources */,
+				07401B112BEB17B90080E807 /* RandomUserResponse.swift in Sources */,
 				07401AF52BEB01430080E807 /* SceneDelegate.swift in Sources */,
+				07401B152BEB1D470080E807 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,12 +439,14 @@
 		};
 		07401B072BEB01450080E807 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9317F21E48E8126F64D40072 /* Pods-Cybilltek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 93859K4ZR2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cybilltek/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -319,12 +469,14 @@
 		};
 		07401B082BEB01450080E807 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D75A870DDAEF622190F7836 /* Pods-Cybilltek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 93859K4ZR2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Cybilltek/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
